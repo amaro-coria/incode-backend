@@ -4,7 +4,8 @@ import com.incode.backend.business.TransformerService;
 import com.incode.backend.model.Element;
 import com.incode.backend.model.TransformRequest;
 import com.incode.backend.model.Transformer;
-import org.springframework.beans.factory.annotation.Autowired;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,6 +16,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/transform")
+@Tag(name = "Transform", description = "API for transforming string values")
 public class TransformController {
 
     private final ApplicationContext context;
@@ -23,6 +25,7 @@ public class TransformController {
         this.context = context;
     }
 
+    @Operation(summary = "Transform elements", description = "Apply a series of transformations to the provided elements")
     @PostMapping
     public Map<String, List<Map<String, String>>> transformElements(@RequestBody TransformRequest request) {
         Map<String, List<Map<String, String>>> response = new HashMap<>();

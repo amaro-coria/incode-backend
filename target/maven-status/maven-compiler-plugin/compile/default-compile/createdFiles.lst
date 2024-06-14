@@ -1,0 +1,9 @@
+com/incode/backend/business/impl/RegexReplaceTransformer.class
+com/incode/backend/model/Element.class
+com/incode/backend/model/TransformRequest.class
+com/incode/backend/business/impl/RegexRemoveTransformer.class
+com/incode/backend/model/Transformer.class
+com/incode/backend/IncodeBackendApplication.class
+com/incode/backend/business/impl/CyrillicGreekToLatinTransformer.class
+com/incode/backend/controller/TransformController.class
+com/incode/backend/business/TransformerService.class
