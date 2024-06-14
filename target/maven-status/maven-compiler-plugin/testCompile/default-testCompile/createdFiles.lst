@@ -1,0 +1,6 @@
+com/incode/backend/RegexRemoveTransformerTest.class
+com/incode/backend/IncodeBackendApplicationTests.class
+com/incode/backend/RegexReplaceTransformerTest.class
+com/incode/backend/TransformControllerIntegrationTest.class
+com/incode/backend/TransformControllerTest.class
+com/incode/backend/CyrillicGreekToLatinTransformerTest.class

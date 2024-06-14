@@ -1,0 +1,9 @@
+/Users/jorgeamarocoria/Documents/Personal/Code/incode-backend/src/main/java/com/incode/backend/IncodeBackendApplication.java
+/Users/jorgeamarocoria/Documents/Personal/Code/incode-backend/src/main/java/com/incode/backend/business/TransformerService.java
+/Users/jorgeamarocoria/Documents/Personal/Code/incode-backend/src/main/java/com/incode/backend/business/impl/CyrillicGreekToLatinTransformer.java
+/Users/jorgeamarocoria/Documents/Personal/Code/incode-backend/src/main/java/com/incode/backend/business/impl/RegexRemoveTransformer.java
+/Users/jorgeamarocoria/Documents/Personal/Code/incode-backend/src/main/java/com/incode/backend/business/impl/RegexReplaceTransformer.java
+/Users/jorgeamarocoria/Documents/Personal/Code/incode-backend/src/main/java/com/incode/backend/controller/TransformController.java
+/Users/jorgeamarocoria/Documents/Personal/Code/incode-backend/src/main/java/com/incode/backend/model/Element.java
+/Users/jorgeamarocoria/Documents/Personal/Code/incode-backend/src/main/java/com/incode/backend/model/TransformRequest.java
+/Users/jorgeamarocoria/Documents/Personal/Code/incode-backend/src/main/java/com/incode/backend/model/Transformer.java
